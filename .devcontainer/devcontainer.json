@@ -1,0 +1,22 @@
+{
+  "name": "Pagos DevContainer",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "pagos-service",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "vmware.vscode-spring-boot",
+        "redhat.vscode-xml",
+        "ms-azuretools.vscode-docker"
+      ],
+      "settings": {
+        "java.configuration.updateBuildConfiguration": "automatic",
+        "editor.formatOnSave": true
+      }
+    }
+  },
+  "remoteUser": "root",
+  "shutdownAction": "stopCompose"
+}
