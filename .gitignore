@@ -1,0 +1,22 @@
+# Secretos y entorno
+.env
+!.env.example
+
+# Build y binarios Java
+target/
+*.jar
+*.war
+*.class
+.mvn/
+
+# Logs y bases de datos locales
+*.log
+pagos_db_data/
+docker-volumes/
+
+# IDEs y SO
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
